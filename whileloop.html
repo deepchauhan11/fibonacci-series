@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+   
+    <script>
+        count = 0
+		var i = 0, j = 1, k;
+		document.write("Using while loop : Fibonacci Series <br> ");
+		while(count<40)
+		{
+			document.write(i + "<br />");
+			k = i+j;
+			i = j;
+			j = k;
+            count++;
+		}
+    </script>
+</body>
+</html>
